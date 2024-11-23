@@ -24,5 +24,10 @@ int main()  {
     if(algorithm == 1)  {
         forwardSelection(features);
     }
+    if(algorithm == 2)  {
+
+        backwardElimination(features);
+        
+    }
 
 }
